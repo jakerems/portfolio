@@ -1,0 +1,53 @@
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 30px 20px;
+    text-align: center;
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+    color: black;
+    font-size: 60px
+}
+
+a {
+color: lightblue;
+text-decoration: none;
+}
+
+p {
+    color: lightblue;
+}
+
+/* Centers images */
+
+img {
+display: block;
+margin: 0px auto;
+}
+
+/* When you put a period in front of a CSS declaration, it indicates you are
+creating a new class. We can apply this to div elements to create different
+portfolio entries */
+
+.portfolio-item {
+margin-top: 60px;
+padding: 40px;
+background-color: #f7f7f7;
+}
+
+#homebg {
+    background-image: url("img/homebg5.jpg");
+      background-size:     cover;                
+    background-repeat:   no-repeat;
+    height: 150%;
+    margin: 290px auto;
+    
+}
+
+.hometitle {
+    color: white;
+}
